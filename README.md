@@ -57,4 +57,6 @@ Con los tres codigos ejecutados, usando los modelos de pytorch, el robot Puzzleb
 
 Para cerrar las ejecuciones, se presiona ctrl c en todas las terminales. Para salir del apartado de la Jetson, se escribe exit en la terminal. 
 
+Finalmente, para apagar el puzzlebot, se deberá mantener presionado el botón de la batería durante unos 5 segundos para que este se apague y deje de suministrar energía a la hackerboard y a la Jetson. De querer volverlo a prender, se presiona de nuevo el botón. 
+
 Se recomienda correr el sistema en tres computadoras, una para la red de señales de tránsito (con su respectivo modelo de pytorch), otra para la red de semáforos (con su respectivo modelo de pytorch) y otra para el código de navegación. 
